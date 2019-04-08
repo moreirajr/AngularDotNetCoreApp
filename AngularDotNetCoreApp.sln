@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9E6BD92-B71F-4FF2-94C9-59B6BC49642C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A3B6DF26-1612-4E85-91CB-4A2E967AFCCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularDotNetCoreApp.Web", "src\Web\AngularDotNetCoreApp.Web\AngularDotNetCoreApp.Web.csproj", "{9C1B6F2A-54B5-4E52-A584-75E4FBA0DFFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1B6F2A-54B5-4E52-A584-75E4FBA0DFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1B6F2A-54B5-4E52-A584-75E4FBA0DFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1B6F2A-54B5-4E52-A584-75E4FBA0DFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1B6F2A-54B5-4E52-A584-75E4FBA0DFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B6DF26-1612-4E85-91CB-4A2E967AFCCC} = {B9E6BD92-B71F-4FF2-94C9-59B6BC49642C}
+		{9C1B6F2A-54B5-4E52-A584-75E4FBA0DFFD} = {A3B6DF26-1612-4E85-91CB-4A2E967AFCCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8931A025-20CF-4BEE-9821-EC559028D891}
+	EndGlobalSection
+EndGlobal
